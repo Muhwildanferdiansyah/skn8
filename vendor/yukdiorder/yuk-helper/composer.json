@@ -1,0 +1,23 @@
+{
+    "name": "yukdiorder/yuk-helper",
+    "description": "Membantu wordpress developer untuk mengerjakan fungsi - fungsi wordpress sederhana",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Isnainy Nasrullah",
+            "email": "nain.daftar@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Yukdiorder\\Helper\\" : "src/",
+            "Yukdiorder\\Designs\\" : "src/Designs"
+        } ,
+        "files" : ["includes/functions.php"]
+    }
+}

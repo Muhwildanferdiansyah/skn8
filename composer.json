@@ -1,0 +1,6 @@
+{
+    "require": {
+        "yukdiorder/yuk-helper": "^7.1",
+        "htmlburger/carbon-fields": "^3.3"
+    }
+}
